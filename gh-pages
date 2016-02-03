@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Image Gallery | Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.modal.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+
+
+  </head>
+  <body>
+
+    <!-- Modals; Edit with care -->
+    <!-- 1 Modal; Edit with care -->
+    <div id="img1" style="display:none;">
+      <p>Border between Germany and Austria.</p>
+      <img src="images/large/Alps.jpg">
+    </div>
+     <!-- 2 Modal; Edit with care -->
+    <div id="img2" style="display:none;">
+      <p>Countryside of Salzburg, Austria.</p>
+      <img src="images/large/Austria.jpg">
+    </div>
+     <!-- 3 Modal; Edit with care -->
+    <div id="img3" style="display:none;">
+      <p>Fall-colored trees in Cartersville, GA.</p>
+      <img src="images/large/AutumnTreesNew.jpg">
+    </div>
+    <!-- 4 Modal; Edit with care -->
+    <div id="img4" style="display:none;">
+      <p>Boardwalk to the beach in Isle of Palms, SC></p>
+      <img src="images/large/BOardwalk.jpg">
+    </div>
+    <!-- 5 Modal; Edit with care -->
+    <div id="img5" style="display:none;">
+      <p>Rocky beach in Mexico.</p>
+      <img src="images/large/Beach.jpg">
+    </div>
+    <!-- 6 Modal; Edit with care -->
+    <div id="img6" style="display:none;">
+      <p>Mountain overlook in Austria.</p>
+      <img src="images/large/BlueMtnsNew.jpg">
+    </div>
+    <!-- 7 Modal; Edit with care -->
+    <div id="img7" style="display:none;">
+      <p>Blooming cactus in San Marcos, TX.</p>
+      <img src="images/large/Cactus.jpg">
+    </div>
+    <!-- 8 Modal; Edit with care -->
+    <div id="img8" style="display:none;">
+      <p>Flowers in Greune, TX.</p>
+      <img src="images/large/Flowers.jpg">
+    </div>
+    <!-- 9 Modal; Edit with care -->
+    <div id="img9" style="display:none;">
+      <p>Backyard garden in Paris, France.</p>
+      <img src="images/large/Garden.jpg">
+    </div>
+    <!-- 10 Modal; Edit with care -->
+    <div id="img10" style="display:none;">
+      <p>Hallway in the Louvre.</p>
+      <img src="images/large/GoldenHallwayNew.jpg">
+    </div>
+    <!-- 11 Modal; Edit with care -->
+    <div id="img11" style="display:none;">
+      <p>Street graffiti in Paris, France.</p>
+      <img src="images/large/Graffiti.jpg">
+    </div>
+    <!-- 12 Modal; Edit with care -->
+    <div id="img12" style="display:none;">
+      <p>Irises outside the Louvre.</p>
+      <img src="images/large/Iris1.jpg">
+    </div>
+    <!-- 13 Modal; Edit with care -->
+    <div id="img13" style="display:none;">
+      <p>Lagoon in Mexico.</p>
+      <img src="images/large/Lagoon.jpg">
+    </div>
+    <!-- 14 Modal; Edit with care -->
+    <div id="img14" style="display:none;">
+      <p>Lightpost in Paris, France.</p>
+      <img src="images/large/LightpostNew.jpg">
+    </div>
+    <!-- 15 Modal; Edit with care -->
+    <div id="img15" style="display:none;">
+      <p>Statue behind Notre Dame in Paris, France.</p>
+      <img src="images/large/NDStatue.jpg">
+    </div>
+    <!-- 16 Modal; Edit with care -->
+    <div id="img16" style="display:none;">
+      <p>Notre Dame in Paris, France.</p>
+      <img src="images/large/NotreDame.jpg">
+    </div>
+    <!-- 17 Modal; Edit with care -->
+    <div id="img17" style="display:none;">
+      <p>Apartments in Paris, France.</p>
+      <img src="images/large/Paris.jpg">
+    </div>
+    <!-- 18 Modal; Edit with care -->
+    <div id="img18" style="display:none;">
+      <p>Plaque outside of an obelisk in Paris, France.</p>
+      <img src="images/large/Plaque.jpg">
+    </div>
+    <!-- 19 Modal; Edit with care -->
+    <div id="img19" style="display:none;">
+      <p>Stained glass windows in Paris, France.</p>
+      <img src="images/large/StainedGlass.jpg">
+    </div>
+    
+    <!-- Page content -->
+    <div class="container">
+
+      <section class="page-header">
+        <h1 class="project-name">Image Gallery.</h1>
+        <h2 class="project-tagline">Aidan Strassmann</h2>
+      </section>
+
+      <section class="gallery">
+        <ul class="imageGallery">
+          <li><a href="#img1" rel="modal:open"><img src="images/thumbnails/AlpsThumb.jpg"></a></li>
+          <li><a href="#img2" rel="modal:open"><img src="images/thumbnails/AustriaTHumb.jpg"></a></li>
+          <li><a href="#img3" rel="modal:open"><img src="images/thumbnails/AutumnTreesNewThumb.jpg"></a></li>
+          <li><a href="#img4" rel="modal:open"><img src="images/thumbnails/BOardwalkThumb.jpg"></a></li>
+          <li><a href="#img5" rel="modal:open"><img src="images/thumbnails/BeachThumb.jpg"></a></li>
+          <li><a href="#img6" rel="modal:open"><img src="images/thumbnails/BlueMountains.jpg"></a></li>
+          <li><a href="#img7" rel="modal:open"><img src="images/thumbnails/CactusThumb.jpg"></a></li>
+          <li><a href="#img8" rel="modal:open"><img src="images/thumbnails/FlowersThumb.jpg"></a></li>
+          <li><a href="#img9" rel="modal:open"><img src="images/thumbnails/GardenTHumb.jpg"></a></li>
+          <li><a href="#img10" rel="modal:open"><img src="images/thumbnails/GoldenHallway.jpg"></a></li>
+          <li><a href="#img11" rel="modal:open"><img src="images/thumbnails/GraffitiThumb.jpg"></a></li>
+          <li><a href="#img12" rel="modal:open"><img src="images/thumbnails/IrisThumb.jpg"></a></li>
+          <li><a href="#img13" rel="modal:open"><img src="images/thumbnails/LagoonThumb.jpg"></a></li>
+          <li><a href="#img14" rel="modal:open"><img src="images/thumbnails/LightpostThumb.jpg"></a></li>
+          <li><a href="#img15" rel="modal:open"><img src="images/thumbnails/NDStatueThumb.jpg"></a></li>
+          <li><a href="#img16" rel="modal:open"><img src="images/thumbnails/NotreDameThumb.jpg"></a></li>
+          <li><a href="#img17" rel="modal:open"><img src="images/thumbnails/ParisThumb.jpg"></a></li>
+          <li><a href="#img18" rel="modal:open"><img src="images/thumbnails/PlaqueThumb.jpg"></a></li>
+          <li><a href="#img19" rel="modal:open"><img src="images/thumbnails/StainedGlassThumb.jpg"></a></li>
+        </ul>
+      </section>
+
+      <footer class="site-footer">
+        <hr>
+        <p>Public domain photos provided by <a href="http://skuawk.com" target="_blank">skuawk.com</a></p>
+      </footer>
+      <!-- JavaScript; Do not edit below -->
+       <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/jquery.modal.min.js"></script>
+    </div>
+  </body>
+</html>
